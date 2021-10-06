@@ -7,6 +7,8 @@ import { SharedModule } from '../shared/shared.module';
 import { LayoutComponent } from './components/layout/layout.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { ListUsersComponent } from './components/list-users/list-users.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { ListUsersComponent } from './components/list-users/list-users.component
     CommonModule,
     PublicRoutingModule,
     MatSidenavModule,
-    SharedModule
+    SharedModule,
+    MatGridListModule,
+    MatButtonModule
   ],
   exports: [
     PublicComponent,

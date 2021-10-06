@@ -8,6 +8,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { CardComponent } from './components/card/card.component';
+import {MatDividerModule} from '@angular/material/divider';
 
 
 
@@ -23,7 +24,8 @@ import { CardComponent } from './components/card/card.component';
     MatListModule,
     MatToolbarModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatDividerModule
   ],
   exports: [
     HeaderComponent,
