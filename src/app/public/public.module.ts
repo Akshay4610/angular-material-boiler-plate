@@ -9,6 +9,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { ListUsersComponent } from './components/list-users/list-users.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatSidenavModule,
     SharedModule,
     MatGridListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatIconModule
   ],
   exports: [
     PublicComponent,

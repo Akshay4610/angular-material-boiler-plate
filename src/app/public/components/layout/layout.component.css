@@ -34,13 +34,20 @@
 
 .user__link {
     position: absolute;
-    top: 69px;
-    right: 500px;
+    top: 78px;
+    right: 484px;
     z-index: 3;
     width: 107px;
     height: 39px;
     color: #81003c;
     font-size: xx-large;
     font-weight: 100;
-    border-bottom: 1px solid #81003c;
+}
+
+.material-icons {
+    position: absolute;
+    top: 64px;
+    right: 593px;
+    z-index: 3;
+    font-size: xxx-large;
 }
