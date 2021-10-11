@@ -40,26 +40,27 @@ mat-card-title {
     color: white;
 }
 
+/* To do change the css names as per the color */
 .grey {
-    background-color: #a0a3a8;
+    background-color: #929598;
 }
 
 .golden {
-    background-color: #b6a464;
+    background-color: #90a8a1;
 }
 
 .purple {
-    background-color: #9384a5;
+    background-color: #b69cc9;
 }
 
 .light-purple {
-    background-color: #8f7b86;
+    background-color: #fcb994;
 }
 
 .blue {
-    background-color: #6884ac;
+    background-color: #8f90ab;
 }
 
 .pink {
-    background-color: #f45774;
+    background-color: #ed1164;
 }
